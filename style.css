@@ -1,0 +1,66 @@
+
+
+/* ------------------------------ INTROOOOOOOOOOOOOOOOOOOOOOOOOOO-------------- */
+.gradient-background {
+  background: linear-gradient(300deg, #c96b00, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.grammata h1{
+  color:white;
+  text-decoration: underline;
+}
+.grammata{
+  color:white;
+}
+
+.mateo1{
+  border-radius:5px;
+}
+
+.wave {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+
+/* XARAKTHRISTIKA */
+
+.kitty{
+  background-size:cover; 
+  background-position:center;
+  border: none;
+}
+
+/* <!--------------------------------------MARTYRIES------------------------------> */
+
+.females{
+  height:160px;
+  border-radius:5px;
+}
+
+/* <!----------------------------EXTRA FRIENDLY OWNER------------------------------------------> */
+
+.owner{
+  height:400;
+  border-radius:5%;
+  border:none;
+}
+
+
+/* <!----------------------------FOOTER------------------------------------------> */
